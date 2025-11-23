@@ -1,5 +1,5 @@
 # QC-OpenWebUI-Plugin
 My OpenWebUI Plugin  
 
-## Credits
+### Credits
 [OpenWebUIPlugin](https://github.com/OVINC-CN/OpenWebUIPlugin)
