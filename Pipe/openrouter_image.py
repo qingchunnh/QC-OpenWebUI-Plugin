@@ -34,7 +34,7 @@ class Pipe:
         base_url: str = Field(default="https://openrouter.ai/api/v1", description="请求URL")
         api_key: str = Field(default="", description="API密钥")
         timeout: int = Field(default=600, description="超时时间")
-        proxy: Optional[str] = Field(default="None", description="代理URL")
+        proxy: Optional[str] = Field(default="", description="代理URL")
         models: str = Field(
             default="google/gemini-3-pro-image-preview",
             description="可用模型, 逗号分隔",
